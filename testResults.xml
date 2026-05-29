@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="27" errors="0" failures="2" not-run="0" inconclusive="0" ignored="0" skipped="1" invalid="0" date="2026-05-29" time="08:58:41">
+  <environment user-domain="" clr-version="8.0.27" platform="Linux" nunit-version="2.5.8.0" cwd="/home/runner/work/bicep-registry-modules/bicep-registry-modules" user="runner" machine-name="runnervm3jyl0" os-version="6.17.0-1015-azure" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Failure" success="False" time="61.892" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="/home/runner/work/bicep-registry-modules/bicep-registry-modules/utilities/pipelines/staticValidation/compliance/module.tests.ps1" executed="True" result="Failure" success="False" time="61.892" asserts="0" description="/home/runner/work/bicep-registry-modules/bicep-registry-modules/utilities/pipelines/staticValidation/compliance/module.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="File/folder tests" executed="True" result="Ignored" success="True" time="0.4025" asserts="0" description="File/folder tests">
+            <results>
+              <test-suite type="TestFixture" name="File/folder tests.General module folder tests" executed="True" result="Success" success="True" time="0.1678" asserts="0" description="File/folder tests.General module folder tests">
+                <results>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.General module folder tests.[&lt;moduleFolderName&gt;] Module must contain a [` README.md `] file." executed="True" result="Success" success="True" time="0.0102" asserts="0" description="[&lt;moduleFolderName&gt;] Module must contain a [` README.md `] file.">
+                    <results>
+                      <test-case description="[network/azure-firewall] Module must contain a [ README.md ] file." name="File/folder tests.General module folder tests.[network/azure-firewall] Module must contain a [ README.md ] file." time="0.0102" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.General module folder tests.[&lt;moduleFolderName&gt;] Module must contain a [` CHANGELOG.md `] file." executed="True" result="Success" success="True" time="0.0051" asserts="0" description="[&lt;moduleFolderName&gt;] Module must contain a [` CHANGELOG.md `] file.">
+                    <results>
+                      <test-case description="[network/azure-firewall] Module must contain a [ CHANGELOG.md ] file." name="File/folder tests.General module folder tests.[network/azure-firewall] Module must contain a [ CHANGELOG.md ] file." time="0.0051" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.General module folder tests.[&lt;moduleFolderName&gt;] Resource module (folder) name must be singular, use '-' instead of camel-case and be lower-case (e.g., 'the-cake-is-a-lie')." executed="True" result="Success" success="True" time="0.0084" asserts="0" description="[&lt;moduleFolderName&gt;] Resource module (folder) name must be singular, use '-' instead of camel-case and be lower-case (e.g., 'the-cake-is-a-lie').">
+                    <results>
+                      <test-case description="[network/azure-firewall] Resource module (folder) name must be singular, use '-' instead of camel-case and be lower-case (e.g., 'the-cake-is-a-lie')." name="File/folder tests.General module folder tests.[network/azure-firewall] Resource module (folder) name must be singular, use '-' instead of camel-case and be lower-case (e.g., 'the-cake-is-a-lie')." time="0.0084" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.General module folder tests.[&lt;moduleFolderName&gt;] Module must contain a [` main.bicep `] file." executed="True" result="Success" success="True" time="0.1182" asserts="0" description="[&lt;moduleFolderName&gt;] Module must contain a [` main.bicep `] file.">
+                    <results>
+                      <test-case description="[network/azure-firewall] Module must contain a [ main.bicep ] file." name="File/folder tests.General module folder tests.[network/azure-firewall] Module must contain a [ main.bicep ] file." time="0.1182" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.General module folder tests.[&lt;moduleFolderName&gt;] Module must contain a [` main.json `] file." executed="True" result="Success" success="True" time="0.0044" asserts="0" description="[&lt;moduleFolderName&gt;] Module must contain a [` main.json `] file.">
+                    <results>
+                      <test-case description="[network/azure-firewall] Module must contain a [ main.json ] file." name="File/folder tests.General module folder tests.[network/azure-firewall] Module must contain a [ main.json ] file." time="0.0044" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="File/folder tests.Top level module folder tests" executed="True" result="Ignored" success="True" time="0.3943" asserts="0" description="File/folder tests.Top level module folder tests">
+                <results>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.Top level module folder tests.[&lt;moduleFolderName&gt;] Top-level module must contain a [` version.json `] file, unless multi-scope." executed="True" result="Success" success="True" time="0.0041" asserts="0" description="[&lt;moduleFolderName&gt;] Top-level module must contain a [` version.json `] file, unless multi-scope.">
+                    <results>
+                      <test-case description="[res/network/azure-firewall] Top-level module must contain a [ version.json ] file, unless multi-scope." name="File/folder tests.Top level module folder tests.[res/network/azure-firewall] Top-level module must contain a [ version.json ] file, unless multi-scope." time="0.0041" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.Top level module folder tests.[&lt;moduleFolderName&gt;] Top-level module should contain a [` tests `] folder." executed="True" result="Success" success="True" time="0.0038" asserts="0" description="[&lt;moduleFolderName&gt;] Top-level module should contain a [` tests `] folder.">
+                    <results>
+                      <test-case description="[res/network/azure-firewall] Top-level module should contain a [ tests ] folder." name="File/folder tests.Top level module folder tests.[res/network/azure-firewall] Top-level module should contain a [ tests ] folder." time="0.0038" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.Top level module folder tests.[&lt;moduleFolderName&gt;] Top-level module should contain a [` tests/e2e `] folder." executed="True" result="Success" success="True" time="0.0046" asserts="0" description="[&lt;moduleFolderName&gt;] Top-level module should contain a [` tests/e2e `] folder.">
+                    <results>
+                      <test-case description="[res/network/azure-firewall] Top-level module should contain a [ tests/e2e ] folder." name="File/folder tests.Top level module folder tests.[res/network/azure-firewall] Top-level module should contain a [ tests/e2e ] folder." time="0.0046" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.Top level module folder tests.[&lt;moduleFolderName&gt;] Top-level module should contain a [` tests/e2e/*waf-aligned `] folder." executed="True" result="Success" success="True" time="0.0212" asserts="0" description="[&lt;moduleFolderName&gt;] Top-level module should contain a [` tests/e2e/*waf-aligned `] folder.">
+                    <results>
+                      <test-case description="[res/network/azure-firewall] Top-level module should contain a [ tests/e2e/*waf-aligned ] folder." name="File/folder tests.Top level module folder tests.[res/network/azure-firewall] Top-level module should contain a [ tests/e2e/*waf-aligned ] folder." time="0.0212" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.Top level module folder tests.[&lt;moduleFolderName&gt;] Top-level module should contain one [` main.test.bicep `] file in each e2e test folder." executed="True" result="Success" success="True" time="0.0519" asserts="0" description="[&lt;moduleFolderName&gt;] Top-level module should contain one [` main.test.bicep `] file in each e2e test folder.">
+                    <results>
+                      <test-case description="[res/network/azure-firewall] Top-level module should contain one [ main.test.bicep ] file in each e2e test folder." name="File/folder tests.Top level module folder tests.[res/network/azure-firewall] Top-level module should contain one [ main.test.bicep ] file in each e2e test folder." time="0.0519" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.Top level module folder tests.[&lt;moduleFolderName&gt;] Resource Modules must not skip the &quot;*defaults&quot; or &quot;*waf-aligned&quot; tests with a [` .e2eignore `] file." executed="True" result="Success" success="True" time="0.0163" asserts="0" description="[&lt;moduleFolderName&gt;] Resource Modules must not skip the &quot;*defaults&quot; or &quot;*waf-aligned&quot; tests with a [` .e2eignore `] file.">
+                    <results>
+                      <test-case description="[res/network/azure-firewall] Resource Modules must not skip the &quot;*defaults&quot; or &quot;*waf-aligned&quot; tests with a [ .e2eignore ] file." name="File/folder tests.Top level module folder tests.[res/network/azure-firewall] Resource Modules must not skip the &quot;*defaults&quot; or &quot;*waf-aligned&quot; tests with a [ .e2eignore ] file." time="0.0163" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.Top level module folder tests.[&lt;moduleFolderName&gt;] a [` .e2eignore `] file must contain text, which states the exception reason for not executing the deployment test." executed="True" result="Success" success="True" time="0.0096" asserts="0" description="[&lt;moduleFolderName&gt;] a [` .e2eignore `] file must contain text, which states the exception reason for not executing the deployment test.">
+                    <results>
+                      <test-case description="[res/network/azure-firewall] a [ .e2eignore ] file must contain text, which states the exception reason for not executing the deployment test." name="File/folder tests.Top level module folder tests.[res/network/azure-firewall] a [ .e2eignore ] file must contain text, which states the exception reason for not executing the deployment test." time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="File/folder tests.Top level module folder tests.[&lt;moduleFolderName&gt;] Top-level module should contain a [` ORPHANED.md `] file only if orphaned." executed="True" result="Ignored" success="True" time="0.1009" asserts="0" description="[&lt;moduleFolderName&gt;] Top-level module should contain a [` ORPHANED.md `] file only if orphaned.">
+                    <results>
+                      <test-case description="[res/network/azure-firewall] Top-level module should contain a [ ORPHANED.md ] file only if orphaned." name="File/folder tests.Top level module folder tests.[res/network/azure-firewall] Top-level module should contain a [ ORPHANED.md ] file only if orphaned." time="0.1009" asserts="0" success="False" result="Ignored" executed="False" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Pipeline tests" executed="True" result="Success" success="True" time="0.5469" asserts="0" description="Pipeline tests">
+            <results>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] Module should have a GitHub workflow in path [.github/workflows/&lt;workflowFileName&gt;]." executed="True" result="Success" success="True" time="0.0067" asserts="0" description="[&lt;moduleFolderName&gt;] Module should have a GitHub workflow in path [.github/workflows/&lt;workflowFileName&gt;].">
+                <results>
+                  <test-case description="[network/azure-firewall] Module should have a GitHub workflow in path [.github/workflows/avm.res.network.azure-firewall.yml]." name="Pipeline tests.[network/azure-firewall] Module should have a GitHub workflow in path [.github/workflows/avm.res.network.azure-firewall.yml]." time="0.0067" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] should have expected environment variables." executed="True" result="Success" success="True" time="0.0096" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] should have expected environment variables.">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] should have expected environment variables." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] should have expected environment variables." time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] should have [workflowPath] environment variable with value [.github/workflows/&lt;WorkflowFileName&gt;]." executed="True" result="Success" success="True" time="0.0052" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] should have [workflowPath] environment variable with value [.github/workflows/&lt;WorkflowFileName&gt;].">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] should have [workflowPath] environment variable with value [.github/workflows/avm.res.network.azure-firewall.yml]." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] should have [workflowPath] environment variable with value [.github/workflows/avm.res.network.azure-firewall.yml]." time="0.0052" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] should have [modulePath] environment variable with value [&lt;relativeModulePath&gt;]." executed="True" result="Success" success="True" time="0.0116" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] should have [modulePath] environment variable with value [&lt;relativeModulePath&gt;].">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] should have [modulePath] environment variable with value [avm/res/network/azure-firewall]." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] should have [modulePath] environment variable with value [avm/res/network/azure-firewall]." time="0.0116" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] should have expected runtime parameters." executed="True" result="Success" success="True" time="0.012" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] should have expected runtime parameters.">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] should have expected runtime parameters." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] should have expected runtime parameters." time="0.012" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]'s [staticValidation] runtime parameter should have a default value of [true]." executed="True" result="Success" success="True" time="0.0167" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]'s [staticValidation] runtime parameter should have a default value of [true].">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]'s [staticValidation] runtime parameter should have a default value of [true]." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]'s [staticValidation] runtime parameter should have a default value of [true]." time="0.0167" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]'s [deploymentValidation] runtime parameter should have a default value of [true]." executed="True" result="Success" success="True" time="0.0075" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]'s [deploymentValidation] runtime parameter should have a default value of [true].">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]'s [deploymentValidation] runtime parameter should have a default value of [true]." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]'s [deploymentValidation] runtime parameter should have a default value of [true]." time="0.0075" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]'s [customLocation] runtime parameter should not have a default value." executed="True" result="Success" success="True" time="0.0098" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]'s [customLocation] runtime parameter should not have a default value.">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]'s [customLocation] runtime parameter should not have a default value." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]'s [customLocation] runtime parameter should not have a default value." time="0.0098" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] Should have only the [main] branch as a push trigger." executed="True" result="Success" success="True" time="0.0074" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;] Should have only the [main] branch as a push trigger.">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] Should have only the [main] branch as a push trigger." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml] Should have only the [main] branch as a push trigger." time="0.0074" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]. Should have the expected push trigger path filters." executed="True" result="Success" success="True" time="0.0124" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]. Should have the expected push trigger path filters.">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]. Should have the expected push trigger path filters." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]. Should have the expected push trigger path filters." time="0.0124" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]. Should only have the expected push trigger path filters." executed="True" result="Success" success="True" time="0.0169" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]. Should only have the expected push trigger path filters.">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]. Should only have the expected push trigger path filters." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]. Should only have the expected push trigger path filters." time="0.0169" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Pipeline tests.[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]. Should include a condition to run automatically only on upstream `main` changes." executed="True" result="Success" success="True" time="0.0254" asserts="0" description="[&lt;moduleFolderName&gt;] GitHub workflow [&lt;WorkflowFileName&gt;]. Should include a condition to run automatically only on upstream `main` changes.">
+                <results>
+                  <test-case description="[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]. Should include a condition to run automatically only on upstream main changes." name="Pipeline tests.[network/azure-firewall] GitHub workflow [avm.res.network.azure-firewall.yml]. Should include a condition to run automatically only on upstream main changes." time="0.0254" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Module tests" executed="True" result="Failure" success="False" time="27.5589" asserts="0" description="Module tests">
+            <results>
+              <test-suite type="TestFixture" name="Module tests.Readme content tests" executed="True" result="Failure" success="False" time="0.1316" asserts="0" description="Module tests.Readme content tests">
+                <results>
+                  <test-suite type="ParameterizedTest" name="Module tests.Readme content tests.[&lt;moduleFolderName&gt;] `Set-ModuleReadMe` script should not apply any updates." executed="True" result="Failure" success="False" time="0.0924" asserts="0" description="[&lt;moduleFolderName&gt;] `Set-ModuleReadMe` script should not apply any updates.">
+                    <results>
+                      <test-case description="[network/azure-firewall] Set-ModuleReadMe script should not apply any updates." name="Module tests.Readme content tests.[network/azure-firewall] Set-ModuleReadMe script should not apply any updates." time="0.0924" asserts="0" success="False" result="Failure" executed="True">
+                        <failure>
+                          <message>Expected $null or empty, because Failed to apply the Set-ModuleReadMe function due to an error during the function's execution. Please review the inner error(s)., but got Failed to compile [/home/runner/work/bicep-registry-modules/bicep-registry-modules/avm/res/network/azure-firewall/main.bicep].</message>
+                          <stack-trace>at $InvocationError[-1] | Should -BeNullOrEmpty -Because "Failed to apply the `Set-ModuleReadMe` function due to an error during the function's execution. Please review the inner error(s).", /home/runner/work/bicep-registry-modules/bicep-registry-modules/utilities/pipelines/staticValidation/compliance/module.tests.ps1:718
+at &lt;ScriptBlock&gt;, /home/runner/work/bicep-registry-modules/bicep-registry-modules/utilities/pipelines/staticValidation/compliance/module.tests.ps1:718</stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Module tests.Compiled ARM template tests" executed="True" result="Failure" success="False" time="27.0101" asserts="0" description="Module tests.Compiled ARM template tests">
+                <results>
+                  <test-suite type="ParameterizedTest" name="Module tests.Compiled ARM template tests.[&lt;moduleFolderName&gt;] The [main.json] ARM template should be based on the current [main.bicep] Bicep template." executed="True" result="Failure" success="False" time="26.876" asserts="0" description="[&lt;moduleFolderName&gt;] The [main.json] ARM template should be based on the current [main.bicep] Bicep template.">
+                    <results>
+                      <test-case description="[network/azure-firewall] The [main.json] ARM template should be based on the current [main.bicep] Bicep template." name="Module tests.Compiled ARM template tests.[network/azure-firewall] The [main.json] ARM template should be based on the current [main.bicep] Bicep template." time="26.876" asserts="0" success="False" result="Failure" executed="True">
+                        <failure>
+                          <message>ParameterBindingValidationException: Cannot bind argument to parameter 'TemplateObject' because it is null.</message>
+                          <stack-trace>at &lt;ScriptBlock&gt;, /home/runner/work/bicep-registry-modules/bicep-registry-modules/utilities/pipelines/staticValidation/compliance/module.tests.ps1:786</stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
